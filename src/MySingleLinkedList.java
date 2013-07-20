@@ -42,8 +42,8 @@ public class MySingleLinkedList {
 		return listNumber.get(listNumber.size() - 1);
 	}
 
-	public int getBefore(int i) {
+	public int getBefore(int index) {
 		// TODO Auto-generated method stub
-		return 0;
+		return listNumber.get(index - 2);
 	}
 }
