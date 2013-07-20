@@ -57,4 +57,9 @@ public class MySingleLinkedList {
 		return listNumber.indexOf(value) + 1;
 	}
 
+	public int append(int value) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
 }
