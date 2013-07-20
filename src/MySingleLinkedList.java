@@ -34,7 +34,6 @@ public class MySingleLinkedList {
 
 	public int getFirst() {
 		// TODO Auto-generated method stub
-		return 0;
-//		return listNumber.get(0);
+		return listNumber.get(0);
 	}
 }
