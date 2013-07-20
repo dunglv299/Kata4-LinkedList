@@ -39,6 +39,6 @@ public class MySingleLinkedList {
 
 	public int getLast() {
 		// TODO Auto-generated method stub
-		return 0;
+		return listNumber.get(listNumber.size() - 1);
 	}
 }
