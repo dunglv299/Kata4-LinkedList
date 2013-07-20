@@ -47,9 +47,9 @@ public class MySingleLinkedList {
 		return listNumber.get(index - 2);
 	}
 
-	public int getAfter(int i) {
+	public int getAfter(int index) {
 		// TODO Auto-generated method stub
-		return 0;
+		return listNumber.get(index);
 	}
-	
+
 }
