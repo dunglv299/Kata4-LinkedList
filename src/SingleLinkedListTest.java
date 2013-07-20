@@ -88,7 +88,9 @@ public class SingleLinkedListTest {
 		linkedList.insert(10);
 		linkedList.insert(11);
 		linkedList.insert(12);
+		linkedList.insert(12);
+		linkedList.insert(12);
 		linkedList.insert(13);
-		assertEquals(11, linkedList.find(2));
+		assertEquals(3, linkedList.find(12));
 	}
 }
