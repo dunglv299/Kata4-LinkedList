@@ -31,4 +31,10 @@ public class MySingleLinkedList {
 		// TODO Auto-generated method stub
 		listNumber.remove(index - 1);
 	}
+
+	public int getFirst() {
+		// TODO Auto-generated method stub
+		return 0;
+//		return listNumber.get(0);
+	}
 }

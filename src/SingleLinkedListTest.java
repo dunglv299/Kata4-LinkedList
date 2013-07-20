@@ -36,4 +36,15 @@ public class SingleLinkedListTest {
 		linkedList.delete(1);
 		assertEquals(0, linkedList.getListSize());
 	}
+
+	// step 6:
+	@Test
+	public void testGetFirstElement() {
+		MySingleLinkedList linkedList = new MySingleLinkedList();
+		linkedList.insert(10);
+		linkedList.insert(11);
+		linkedList.insert(12);
+		linkedList.insert(13);
+		assertEquals(10, linkedList.getFirst());
+	}
 }
