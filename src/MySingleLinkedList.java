@@ -27,8 +27,8 @@ public class MySingleLinkedList {
 		return listNumber.get(index - 1);
 	}
 
-	public void delete(int i) {
+	public void delete(int index) {
 		// TODO Auto-generated method stub
-		
+		listNumber.remove(index - 1);
 	}
 }
