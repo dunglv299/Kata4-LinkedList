@@ -94,7 +94,7 @@ public class SingleLinkedListTest {
 		assertEquals(3, linkedList.find(12));
 	}
 
-	// stp 11:
+	// step 11:
 	@Test
 	public void testAppend() {
 		MySingleLinkedList linkedList = new MySingleLinkedList();
@@ -102,5 +102,15 @@ public class SingleLinkedListTest {
 		linkedList.insert(11);
 		linkedList.insert(12);
 		assertEquals(4, linkedList.append(13));
+	}
+
+	// step 12
+	@Test
+	public void testInsertFirst() {
+		MySingleLinkedList linkedList = new MySingleLinkedList();
+		linkedList.insert(10);
+		linkedList.insert(11);
+		linkedList.insert(12);
+		assertEquals(0, linkedList.insertFirst(13));
 	}
 }
