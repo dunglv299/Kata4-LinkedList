@@ -69,4 +69,15 @@ public class SingleLinkedListTest {
 		linkedList.insert(13);
 		assertEquals(11, linkedList.getBefore(3));
 	}
+
+	// step 9
+	@Test
+	public void testGetAfter() {
+		MySingleLinkedList linkedList = new MySingleLinkedList();
+		linkedList.insert(10);
+		linkedList.insert(11);
+		linkedList.insert(12);
+		linkedList.insert(13);
+		assertEquals(13, linkedList.getAfter(3));
+	}
 }

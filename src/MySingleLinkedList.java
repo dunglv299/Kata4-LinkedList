@@ -46,4 +46,10 @@ public class MySingleLinkedList {
 		// TODO Auto-generated method stub
 		return listNumber.get(index - 2);
 	}
+
+	public int getAfter(int i) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+	
 }
