@@ -63,9 +63,10 @@ public class MySingleLinkedList {
 		return listNumber.size();
 	}
 
-	public int insertFirst(int i) {
+	public int insertFirst(int value) {
 		// TODO Auto-generated method stub
-		return -1;
+		listNumber.add(value);
+		return 0;
 	}
 
 }
