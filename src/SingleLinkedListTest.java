@@ -101,7 +101,8 @@ public class SingleLinkedListTest {
 		linkedList.insert(10);
 		linkedList.insert(11);
 		linkedList.insert(12);
-		assertEquals(4, linkedList.append(13));
+		linkedList.append(13);
+		assertEquals(13, linkedList.get(4));
 	}
 
 	// step 12
@@ -111,6 +112,7 @@ public class SingleLinkedListTest {
 		linkedList.insert(10);
 		linkedList.insert(11);
 		linkedList.insert(12);
-		assertEquals(0, linkedList.insertFirst(13));
+		linkedList.insertFirst(13);
+		assertEquals(13, linkedList.get(1));
 	}
 }

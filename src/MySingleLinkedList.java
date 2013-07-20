@@ -57,16 +57,14 @@ public class MySingleLinkedList {
 		return listNumber.indexOf(value) + 1;
 	}
 
-	public int append(int value) {
+	public void append(int value) {
 		// TODO Auto-generated method stub
 		listNumber.add(value);
-		return listNumber.size();
 	}
 
-	public int insertFirst(int value) {
+	public void insertFirst(int value) {
 		// TODO Auto-generated method stub
-		listNumber.add(value);
-		return 0;
+		listNumber.add(0, value);
 	}
 
 }
