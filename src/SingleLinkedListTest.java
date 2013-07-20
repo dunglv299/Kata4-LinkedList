@@ -1,0 +1,14 @@
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertTrue;
+
+import org.junit.Test;
+
+public class SingleLinkedListTest {
+	// step 1
+	@Test
+	public void testCreateNewSingleLinkedList() {
+		MySingleLinkedList linkedList = new MySingleLinkedList();
+		assertTrue(linkedList != null);
+		assertEquals(0, linkedList.getListSize());
+	}
+}
