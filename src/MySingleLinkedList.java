@@ -12,4 +12,18 @@ public class MySingleLinkedList {
 	public int getListSize() {
 		return listNumber.size();
 	}
+
+	public void insertAfter(int nodeNumber, int value) {
+		// TODO Auto-generated method stub
+		listNumber.add(nodeNumber, value);
+	}
+
+	public void insert(int value) {
+		// TODO Auto-generated method stub
+		listNumber.add(value);
+	}
+
+	public int get(int index) {
+		return listNumber.get(index - 1);
+	}
 }

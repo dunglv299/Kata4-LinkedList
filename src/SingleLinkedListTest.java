@@ -18,4 +18,13 @@ public class SingleLinkedListTest {
 		MySingleLinkedList linkedList = new MySingleLinkedList();
 		assertEquals(0, linkedList.getListSize());
 	}
+
+	// step 4:
+	@Test
+	public void testInsertAfter() {
+		MySingleLinkedList linkedList = new MySingleLinkedList();
+		linkedList.insert(1);
+		linkedList.insertAfter(1, 10);
+		assertEquals(10, linkedList.get(2));
+	}
 }
