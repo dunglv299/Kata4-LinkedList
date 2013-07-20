@@ -41,4 +41,9 @@ public class MySingleLinkedList {
 		// TODO Auto-generated method stub
 		return listNumber.get(listNumber.size() - 1);
 	}
+
+	public int getBefore(int i) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
 }
