@@ -80,4 +80,15 @@ public class SingleLinkedListTest {
 		linkedList.insert(13);
 		assertEquals(13, linkedList.getAfter(3));
 	}
+
+	// step 10
+	@Test
+	public void testFindElement() {
+		MySingleLinkedList linkedList = new MySingleLinkedList();
+		linkedList.insert(10);
+		linkedList.insert(11);
+		linkedList.insert(12);
+		linkedList.insert(13);
+		assertEquals(11, linkedList.find(2));
+	}
 }

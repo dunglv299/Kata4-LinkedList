@@ -52,4 +52,9 @@ public class MySingleLinkedList {
 		return listNumber.get(index);
 	}
 
+	public int find(int i) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
 }
