@@ -27,4 +27,13 @@ public class SingleLinkedListTest {
 		linkedList.insertAfter(1, 10);
 		assertEquals(10, linkedList.get(2));
 	}
+
+	// step 5:
+	@Test
+	public void testDeleteNumber() {
+		MySingleLinkedList linkedList = new MySingleLinkedList();
+		linkedList.insert(10);
+		linkedList.delete(1);
+		assertEquals(0, linkedList.getListSize());
+	}
 }
