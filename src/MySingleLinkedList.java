@@ -6,7 +6,7 @@ public class MySingleLinkedList {
 
 	public MySingleLinkedList() {
 		// TODO Auto-generated constructor stub
-		// listNumber = new ArrayList<>();
+		listNumber = new ArrayList<>();
 	}
 
 	public int getListSize() {
