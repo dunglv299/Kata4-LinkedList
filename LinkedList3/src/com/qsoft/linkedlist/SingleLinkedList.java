@@ -23,6 +23,7 @@ public class SingleLinkedList {
 
 	public void insertAfter(int position, Node node) {
 		// TODO Auto-generated method stub
+		listNumber.add(position, node);
 
 	}
 
