@@ -47,4 +47,9 @@ public class SingleLinkedList {
 		return listNumber.get(getSize() - 1);
 	}
 
+	public Node getBefore(int possition) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
 }

@@ -52,7 +52,15 @@ public class SingleLinkedListTest extends TestCase {
 	public void testGetLastNode() {
 		createSampleData(linkedList, listSize);
 		Node node = linkedList.getLastNode();
-		assertEquals(1, node.getValue());
+		assertEquals(10, node.getValue());
+	}
+
+	// 6
+	public void testGetBeforeNode() {
+		createSampleData(linkedList, listSize);
+		int possition = 5;
+		Node node = linkedList.getBefore(possition);
+		assertEquals(4, node.getValue());
 	}
 
 	public void createSampleData(SingleLinkedList linkedList, int listSize) {
