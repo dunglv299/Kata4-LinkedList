@@ -44,7 +44,7 @@ public class SingleLinkedList {
 
 	public Node getLastNode() {
 		// TODO Auto-generated method stub
-		return null;
+		return listNumber.get(getSize() - 1);
 	}
 
 }
