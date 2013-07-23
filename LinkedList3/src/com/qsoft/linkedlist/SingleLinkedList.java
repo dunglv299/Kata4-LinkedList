@@ -70,7 +70,9 @@ public class SingleLinkedList {
 
 	public void append(Object o1) {
 		// TODO Auto-generated method stub
-		
+		Node node = new Node();
+		node.setValue(o1);
+		listNumber.addLast(node);
 	}
 
 }
