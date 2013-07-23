@@ -49,7 +49,7 @@ public class SingleLinkedList {
 
 	public Node getBefore(int possition) {
 		// TODO Auto-generated method stub
-		return null;
+		return listNumber.get(possition - 2);
 	}
 
 }
