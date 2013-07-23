@@ -48,6 +48,13 @@ public class SingleLinkedListTest extends TestCase {
 		assertEquals(1, node.getValue());
 	}
 
+	// 5
+	public void testGetLastNode() {
+		createSampleData(linkedList, listSize);
+		Node node = linkedList.getLastNode();
+		assertEquals(1, node.getValue());
+	}
+
 	public void createSampleData(SingleLinkedList linkedList, int listSize) {
 		// TODO Auto-generated method stub
 		for (int i = 1; i <= listSize; i++) {

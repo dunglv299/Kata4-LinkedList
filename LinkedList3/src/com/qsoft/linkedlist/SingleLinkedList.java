@@ -42,4 +42,9 @@ public class SingleLinkedList {
 		return listNumber.get(0);
 	}
 
+	public Node getLastNode() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
 }
