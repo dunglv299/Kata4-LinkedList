@@ -21,4 +21,14 @@ public class SingleLinkedList {
 		return listNumber.size();
 	}
 
+	public void insertAfter(int position, Node node) {
+		// TODO Auto-generated method stub
+
+	}
+
+	public Node get(int location) {
+		// TODO Auto-generated method stub
+		return listNumber.get(location - 1);
+	}
+
 }
