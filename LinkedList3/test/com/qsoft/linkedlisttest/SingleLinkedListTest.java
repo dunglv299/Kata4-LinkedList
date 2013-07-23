@@ -80,4 +80,20 @@ public class SingleLinkedListTest extends TestCase {
 		Node node = linkedList.getAfter(possition);
 		assertEquals(6, node.getValue());
 	}
+
+	// 8
+	public void testFindNode() {
+		createSampleData(linkedList, listSize);
+		Object o1 = Integer.valueOf(10);
+		Node node = linkedList.find(o1);
+		assertEquals(10, node.getValue());
+	}
+
+	// 9
+	public void testAppend() {
+		createSampleData(linkedList, listSize);
+		Object o1 = Integer.valueOf(11);
+		linkedList.append(o1);
+		assertEquals(11, linkedList.get(11).getValue());
+	}
 }

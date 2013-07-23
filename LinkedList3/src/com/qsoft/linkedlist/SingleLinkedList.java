@@ -59,7 +59,18 @@ public class SingleLinkedList {
 
 	public Node find(Object o1) {
 		// TODO Auto-generated method stub
+		for (int i = 0; i < getSize(); i++) {
+			Node node = listNumber.get(i);
+			if (node.getValue() == o1) {
+				return node;
+			}
+		}
 		return null;
+	}
+
+	public void append(Object o1) {
+		// TODO Auto-generated method stub
+		
 	}
 
 }
