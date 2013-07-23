@@ -52,4 +52,14 @@ public class SingleLinkedList {
 		return listNumber.get(possition - 2);
 	}
 
+	public Node getAfter(int possition) {
+		// TODO Auto-generated method stub
+		return listNumber.get(possition);
+	}
+
+	public Node find(Object o1) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
 }
