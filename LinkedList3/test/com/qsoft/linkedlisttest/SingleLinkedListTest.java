@@ -96,4 +96,12 @@ public class SingleLinkedListTest extends TestCase {
 		linkedList.append(o1);
 		assertEquals(11, linkedList.get(11).getValue());
 	}
+
+	// 10
+	public void testInsertFirst() {
+		createSampleData(linkedList, listSize);
+		Object o1 = Integer.valueOf(100);
+		linkedList.insertFirst(o1);
+		assertEquals(100, linkedList.get(1).getValue());
+	}
 }

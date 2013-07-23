@@ -75,4 +75,11 @@ public class SingleLinkedList {
 		listNumber.addLast(node);
 	}
 
+	public void insertFirst(Object o1) {
+		// TODO Auto-generated method stub
+		Node node = new Node();
+		node.setValue(o1);
+		listNumber.addFirst(node);
+	}
+
 }
