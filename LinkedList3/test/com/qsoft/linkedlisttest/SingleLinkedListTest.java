@@ -17,6 +17,16 @@ public class SingleLinkedListTest extends TestCase {
 		listSize = 10;
 	}
 
+	public void createSampleData(SingleLinkedList linkedList, int listSize) {
+		// TODO Auto-generated method stub
+		for (int i = 1; i <= listSize; i++) {
+			Node node = new Node();
+			Object o1 = Integer.valueOf(i);
+			node.setValue(o1);
+			linkedList.insert(node);
+		}
+	}
+
 	// 1
 	public void testCreateNewEmptyList() {
 		createSampleData(linkedList, listSize);
@@ -63,14 +73,11 @@ public class SingleLinkedListTest extends TestCase {
 		assertEquals(4, node.getValue());
 	}
 
-	public void createSampleData(SingleLinkedList linkedList, int listSize) {
-		// TODO Auto-generated method stub
-		for (int i = 1; i <= listSize; i++) {
-			Node node = new Node();
-			Object o1 = Integer.valueOf(i);
-			node.setValue(o1);
-			linkedList.insert(node);
-		}
+	// 7
+	public void testGetAfterNode() {
+		createSampleData(linkedList, listSize);
+		int possition = 5;
+		Node node = linkedList.getAfter(possition);
+		assertEquals(6, node.getValue());
 	}
-
 }
