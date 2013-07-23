@@ -18,7 +18,7 @@ public class SingleLinkedList {
 
 	public int getSize() {
 		// TODO Auto-generated method stub
-		return 0;
+		return listNumber.size();
 	}
 
 }
