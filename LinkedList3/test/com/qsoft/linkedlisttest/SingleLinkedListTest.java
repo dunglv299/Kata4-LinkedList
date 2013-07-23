@@ -29,9 +29,23 @@ public class SingleLinkedListTest extends TestCase {
 		int position = 5;
 		Object o1 = Integer.valueOf(100);
 		Node node = new Node();
-		node.setmObject(o1);
+		node.setValue(o1);
 		linkedList.insertAfter(position, node);
-		assertEquals(100, linkedList.get(6).getmObject());
+		assertEquals(100, linkedList.get(6).getValue());
+	}
+
+	// 3
+	public void testDeleteNode() {
+		createSampleData(linkedList, listSize);
+		linkedList.delete(7);
+		assertEquals(9, linkedList.getSize());
+	}
+
+	// 4
+	public void testGetFirstNode() {
+		createSampleData(linkedList, listSize);
+		Node node = linkedList.getFirstNode();
+		assertEquals(1, node.getValue());
 	}
 
 	public void createSampleData(SingleLinkedList linkedList, int listSize) {
@@ -39,7 +53,7 @@ public class SingleLinkedListTest extends TestCase {
 		for (int i = 1; i <= listSize; i++) {
 			Node node = new Node();
 			Object o1 = Integer.valueOf(i);
-			node.setmObject(o1);
+			node.setValue(o1);
 			linkedList.insert(node);
 		}
 	}

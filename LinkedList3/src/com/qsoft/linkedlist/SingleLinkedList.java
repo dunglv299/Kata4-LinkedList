@@ -32,4 +32,14 @@ public class SingleLinkedList {
 		return listNumber.get(location - 1);
 	}
 
+	public void delete(int location) {
+		// TODO Auto-generated method stub
+		listNumber.remove(location - 1);
+	}
+
+	public Node getFirstNode() {
+		// TODO Auto-generated method stub
+		return listNumber.get(0);
+	}
+
 }

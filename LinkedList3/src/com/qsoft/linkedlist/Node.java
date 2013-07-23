@@ -1,21 +1,21 @@
 package com.qsoft.linkedlist;
 
 public class Node {
-	Object mObject;
+	Object value;
 
 	/**
-	 * @return the mObject
+	 * @return the value
 	 */
-	public Object getmObject() {
-		return mObject;
+	public Object getValue() {
+		return value;
 	}
 
 	/**
-	 * @param mObject
-	 *            the mObject to set
+	 * @param value
+	 *            the value to set
 	 */
-	public void setmObject(Object mObject) {
-		this.mObject = mObject;
+	public void setValue(Object value) {
+		this.value = value;
 	}
 
 }
